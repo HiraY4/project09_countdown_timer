@@ -1,0 +1,24 @@
+{
+  "name": "hycountdowntimer",
+  "version": "1.0.0",
+  "description": "countdown timer",
+  "main": "index.js",
+  "type": "module",
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "date-fns": "^2.30.0",
+    "inquirer": "^9.2.11",
+    "node-banner": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3"
+  }
+}
